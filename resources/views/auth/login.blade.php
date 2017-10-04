@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Macias-Group</title>
+  <title>DEMO 01</title>
   
   
   <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
@@ -21,7 +21,7 @@
 				</div>
 			@endif	
 		{{ csrf_field() }}
-		  <h2 class="form-signin-heading">{{ trans('auth.label.macias_group') }}</h2>
+		  <h2 class="form-signin-heading">DEMO 01</h2>
 		  <input type="text" class="form-control" name="email" placeholder="{{ trans('auth.input.email') }}" autofocus="" required/>
 		  <input type="password" class="form-control" name="password" placeholder=" {{ trans('auth.input.password') }} " required />      
 		  <button class="btn btn-lg btn-primary btn-block" type="submit">{{ trans('auth.input.submit_login') }}</button>   
